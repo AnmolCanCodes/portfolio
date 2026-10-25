@@ -1,0 +1,136 @@
+/* Bennett Feely 3D Cover Flip: 100% Identical Size & Height to SoftPillButton */
+
+.section {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: #A9ADB6;
+  border-radius: 4px;
+  perspective: 300px;
+  box-shadow: 0 -1px 2px #fff, inset 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 0.2rem 0.6rem rgba(0, 0, 0, 0.1);
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+}
+
+:global(.dark) .section {
+  background: #3f3f46;
+  box-shadow: 0 -1px 2px rgba(255, 255, 255, 0.1), inset 0 1px 2px rgba(0, 0, 0, 0.6), inset 0 0.2rem 0.6rem rgba(0, 0, 0, 0.5);
+}
+
+.section,
+.section div {
+  transition-duration: 0.6s;
+  transition-timing-function: cubic-bezier(.2, .7, .1, 1.1);
+}
+
+.button {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  text-decoration: none;
+}
+
+.section:hover .button {
+  opacity: 1;
+}
+
+.cover {
+  position: absolute;
+  inset: 0;
+  transform-origin: center bottom;
+  transform-style: preserve-3d;
+  pointer-events: none;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innie,
+.outie,
+.spine,
+.shadow {
+  position: absolute;
+  width: 100%;
+}
+
+.innie,
+.outie {
+  height: 100%;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.innie {
+  background-color: #18181b;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.3) 100%);
+  text-shadow: 0 -1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.spine {
+  top: 0.15rem;
+  left: 0;
+  background: #27272a;
+  height: 0.15rem;
+  transform: rotateX(90deg);
+  transform-origin: center top;
+}
+
+.outie {
+  transform: translateZ(0.15rem);
+}
+
+.shadow {
+  top: 100%;
+  left: 0;
+  height: 2.2rem;
+  transform-origin: center top;
+  transform: rotateX(90deg);
+  opacity: 0;
+  z-index: 0;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, transparent 100%);
+  border-radius: 0.3rem;
+  pointer-events: none;
+}
+
+.section:hover {
+  background: #EBEFF2;
+}
+
+:global(.dark) .section:hover {
+  background: #52525b;
+}
+
+.section:hover .cover {
+  transform: rotateX(-120deg);
+}
+
+.section:hover .innie {
+  background-color: #27272a;
+}
+
+.section:hover .spine {
+  background-color: #3f3f46;
+}
+
+.section:hover .shadow {
+  opacity: 1;
+  transform: rotateX(45deg) scale(.95);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .section,
+  .section div {
+    transition-duration: 0s !important;
+  }
+}

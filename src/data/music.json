@@ -1,0 +1,110 @@
+{
+  "scenes": [
+    {
+      "scene": "Indie / Mood",
+      "artists": [
+        "Seedhe Maut",
+        "Talha Anjum",
+        "Karan Aujla",
+        "Kendrick Lamar"
+      ]
+    },
+    {
+      "scene": "Hip-hop / Rap",
+      "artists": [
+        "Kanye West",
+        "Kendrick Lamar",
+        "TVGirl",
+        "Mohammed Mere Nishan"
+      ]
+    },
+    {
+      "scene": "Chill / Alternative",
+      "artists": [
+        "Buck Owens",
+        "Arpit Bala",
+        "Enimem",
+        "Karan Aujla"
+      ]
+    }
+  ],
+  "nowPlaying": {
+    "trackId": "placeholder-track",
+    "title": "Lunch Break",
+    "artist": "Seedhe Maut"
+  },
+  "albums": [
+    {
+      "id": "seedhe-maut-lunch-break",
+      "artist": "Seedhe Maut",
+      "year": 2024,
+      "scene": "Indie / Mood",
+      "title": "Lunch Break",
+      "cover": "/music/seedhe-maut-lunch-break.webp"
+    },
+    {
+      "id": "talha-anjum-open-letter",
+      "artist": "Talha Anjum",
+      "year": 2024,
+      "scene": "Indie / Mood",
+      "title": "Open Letter",
+      "cover": "/music/talha-anjum-open-letter.webp"
+    },
+    {
+      "id": "karan-aujla-making-memories",
+      "artist": "Karan Aujla",
+      "year": 2024,
+      "scene": "Indie / Mood",
+      "title": "Making Memories",
+      "cover": "/music/karan-aujla-making-memories.webp"
+    },
+    {
+      "id": "kendrick-lamar-not-likeus",
+      "artist": "Kendrick Lamar",
+      "year": 2024,
+      "scene": "Hip-hop / Rap",
+      "title": "Not Like Us",
+      "cover": "/music/kendrick-lamar-not-likeus.webp"
+    },
+    {
+      "id": "kanye-west-graduation",
+      "artist": "Kanye West",
+      "year": 2007,
+      "scene": "Hip-hop / Rap",
+      "title": "Graduation",
+      "cover": "/music/kanye-west-graduation.webp"
+    },
+    {
+      "id": "tvgirl-who-really-cares",
+      "artist": "TV Girl",
+      "year": 2023,
+      "scene": "Hip-hop / Rap",
+      "title": "Who Really Cares",
+      "cover": "/music/tvgirl-who-really-cares.webp"
+    },
+    {
+      "id": "buck-owens-in-the-palm-of-your-hands",
+      "artist": "Buck Owens",
+      "year": 1963,
+      "scene": "Chill / Alternative",
+      "title": "In the Palm of Your Hands",
+      "cover": "/music/buck-owens-in-the-palm-of-your-hands.webp"
+    },
+    {
+      "id": "arpit-bala-keychain-laalu",
+      "artist": "Arpit Bala",
+      "year": 2024,
+      "scene": "Chill / Alternative",
+      "title": "Keychain Laalu",
+      "cover": "/music/arpit-bala-keychain-laalu.webp"
+    },
+    {
+      "id": "enimem-encore",
+      "artist": "Enimem",
+      "year": 2024,
+      "scene": "Chill / Alternative",
+      "title": "Encore",
+      "cover": "/music/enimem-encore.webp"
+    }
+  ]
+}
