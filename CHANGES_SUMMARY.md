@@ -60,7 +60,7 @@
 **Status:** Should work now with the token.
 
 **If still not working:**
-1. Check `.env` file has `GITHUB_TOKEN=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`
+1. Check `.env` file has your GitHub token
 2. Check browser console (F12) for API errors
 3. Verify token has `public_repo` scope at https://github.com/settings/tokens
 

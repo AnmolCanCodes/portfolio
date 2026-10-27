@@ -21,96 +21,32 @@ type TimelineItem = {
 // Begin at the first role so the durations use the full chart width.
 const timelineItems: TimelineItem[] = [
   {
-    label: "GoCredit AI",
-    shortLabel: "GoCredit",
-    dates: "Oct 2026 - Present",
-    detail: "SDE Intern",
+    label: "Indie full stack AI developer",
+    shortLabel: "FUll stack AI Eng.",
+    dates: "May 2026 - Present",
+    detail: "Building AI end to end software and services as a solo developer",
     experienceIndex: 0,
     start: 81,
     end: 100,
     align: "end",
-    icon: "/Experience-image/gocredit-ai.png",
+    icon: "/Experience-image/indie-fs.png",
     barClassName:
       "border-[#3f7dfb] bg-[#3f7dfb] text-white hover:border-[#5b91ff] hover:bg-[#5b91ff]",
   },
   {
-    label: "OBLIQ",
-    shortLabel: "OBLIQ",
-    dates: "Sep 2026 - Present",
-    detail: "GitHub & Product/UI Lead",
+    label: "Hacktoberfest 2026",
+    shortLabel: "Hacktoberfest 2026",
+    dates: "Oct - Nov",
+    detail: "Building with open source tool and open source ai models",
     experienceIndex: 1,
     start: 75,
     end: 100,
     align: "start",
-    icon: "/Experience-image/obliq-white.png",
+    icon: "/Experience-image/Hacktoberfest.png",
     barClassName:
       "border-[#18181b] bg-[#18181b] text-white hover:border-[#3f3f46] hover:bg-[#3f3f46]",
   },
-  {
-    label: "GSoC 2026",
-    shortLabel: "GSoC",
-    dates: "May 2026 - Aug 2026",
-    detail: "Open Source Contributor, Catrobat",
-    experienceIndex: 2,
-    start: 50,
-    end: 69,
-    align: "end",
-    icon: "/Experience-image/gsoc.png",
-    barClassName:
-      "border-[#d97706] bg-[#d97706] text-white hover:border-[#f59e0b] hover:bg-[#f59e0b] hover:text-zinc-950",
-  },
-  {
-    label: "NatWest Group",
-    shortLabel: "NatWest",
-    dates: "Jun 2026 - Aug 2026",
-    detail: "SDE Intern",
-    experienceIndex: 3,
-    start: 56,
-    end: 69,
-    align: "start",
-    icon: "/Experience-image/natwest-tile.png",
-    barClassName:
-      "border-[#6d28d9] bg-[#6d28d9] text-white hover:border-[#7c3aed] hover:bg-[#7c3aed]",
-  },
-  {
-    label: "Samsung R&D",
-    shortLabel: "Samsung",
-    dates: "Jan 2026 - Sep 2026",
-    detail: "R&D Intern",
-    experienceIndex: 4,
-    start: 25,
-    end: 75,
-    align: "end",
-    icon: "/Experience-image/samsung.png",
-    barClassName:
-      "border-[#0369a1] bg-[#0369a1] text-white hover:border-[#0284c7] hover:bg-[#0284c7]",
-  },
-  {
-    label: "revdau.ai",
-    shortLabel: "revdau",
-    dates: "Apr 2026 - May 2026",
-    detail: "SWE Intern",
-    experienceIndex: 5,
-    start: 44,
-    end: 50,
-    align: "start",
-    icon: "/Experience-image/revdau-tile.png",
-    barClassName:
-      "border-[#dc2626] bg-[#dc2626] text-white hover:border-[#ef4444] hover:bg-[#ef4444]",
-  },
-  {
-    label: "Carver Agents",
-    shortLabel: "Carver",
-    dates: "Oct 2025 - Feb 2026",
-    detail: "SWE Intern",
-    experienceIndex: 6,
-    start: 6,
-    end: 31,
-    align: "end",
-    icon: "/Experience-image/carver-tile.png",
-    barClassName:
-      "border-[#27272a] bg-[#27272a] text-white hover:border-[#3f3f46] hover:bg-[#3f3f46]",
-  },
+
 ];
 
 type ExperienceTimelineProps = {

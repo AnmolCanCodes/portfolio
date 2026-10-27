@@ -5,8 +5,7 @@
       "artists": [
         "Seedhe Maut",
         "Talha Anjum",
-        "Karan Aujla",
-        "Kendrick Lamar"
+        "Karan Aujla"
       ]
     },
     {
@@ -14,24 +13,21 @@
       "artists": [
         "Kanye West",
         "Kendrick Lamar",
-        "TVGirl",
-        "Mohammed Mere Nishan"
+        "TV Girl"
       ]
     },
     {
       "scene": "Chill / Alternative",
       "artists": [
         "Buck Owens",
-        "Arpit Bala",
-        "Enimem",
-        "Karan Aujla"
+        "Arpit Bala"
       ]
     }
   ],
   "nowPlaying": {
-    "trackId": "placeholder-track",
-    "title": "Lunch Break",
-    "artist": "Seedhe Maut"
+    "trackId": "4cOdK2wGLETKBW3PvgPWqT",
+    "title": "Not Like Us",
+    "artist": "Kendrick Lamar"
   },
   "albums": [
     {
@@ -97,14 +93,6 @@
       "scene": "Chill / Alternative",
       "title": "Keychain Laalu",
       "cover": "/music/arpit-bala-keychain-laalu.webp"
-    },
-    {
-      "id": "enimem-encore",
-      "artist": "Enimem",
-      "year": 2024,
-      "scene": "Chill / Alternative",
-      "title": "Encore",
-      "cover": "/music/enimem-encore.webp"
     }
   ]
 }

@@ -38,22 +38,22 @@ export const experiences: ExperienceData[] = [
       "AI/ML",
     ],
   },
-  // {
-  //   title: "Hacktoberfest 2026",
-  //   role: "AI Project Developer / Hacktoberfest Participant",
-  //   dates: "Oct 2026 - Nov 2026",
-  //   location: "Virtual",
-  //   type: "Remote",
-  //   src: "/experience/Hacktoverfest.png",
-  //   imageFit: "cover",
-  //   imageBleed: true,
-  //   imageZoom: 1,
-  //   description: `
-  //     AI Product Building: Developed and deployed functional web/software projects utilizing open-weight AI models and open-source intelligence harnesses.
-  //     Rapid Prototyping: Participated in time-constrained sprints (DEV Challenges / Hack Days) to conceptualize, code, and launch applications based on weekly themes.
-  //     Technical Stack: Implemented open-source frameworks and API integrations to process data, optimize agent tasks, or fine-tune models.
-  //   `,
-  //   tech: ["Open-souce AI tools", "Open-weight models", "API integrations", "github", "Open Source"],
-  // },
+  {
+    title: "Hacktoberfest 2026",
+    role: "AI Project Developer / Hacktoberfest Participant",
+    dates: "Oct 2026 - Nov 2026",
+    location: "Virtual",
+    type: "Remote",
+    src: "/experience/Hacktoberfest.png",
+    imageFit: "cover",
+    imageBleed: true,
+    imageZoom: 1,
+    description: `
+      AI Product Building: Developed and deployed functional web/software projects utilizing open-weight AI models and open-source intelligence harnesses.
+      Rapid Prototyping: Participated in time-constrained sprints (DEV Challenges / Hack Days) to conceptualize, code, and launch applications based on weekly themes.
+      Technical Stack: Implemented open-source frameworks and API integrations to process data, optimize agent tasks, or fine-tune models.
+    `,
+    tech: ["Open-souce AI tools", "Open-weight models", "API integrations", "github", "Open Source"],
+  },
 
 ];

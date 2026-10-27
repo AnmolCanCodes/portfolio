@@ -1,6 +1,4 @@
 import { getLeetCode } from "@/lib/stats/leetcode";
-import { getCodeforces } from "@/lib/stats/codeforces";
-import { getCodeChef } from "@/lib/stats/codechef";
 import { handles } from "@/data/links";
 
 const dashedX = {
@@ -132,7 +130,7 @@ function RatingSparkline({
 }
 
 export async function DsaStats() {
-  const [lc, cf, cc] = await Promise.all([getLeetCode(), getCodeforces(), getCodeChef()]);
+  const lc = await getLeetCode();
 
   const difficulties = [
     { key: "Easy", solved: lc.solved.easy, total: lc.totals.easy },
@@ -176,34 +174,6 @@ export async function DsaStats() {
         </div>
       </StatCard>
       </div>
-
-      <StatCard
-        title="Codeforces"
-        handle={cf.handle}
-        href={`https://codeforces.com/profile/${cf.handle}`}
-        stale={cf.stale}
-        metrics={[
-          { label: "Peak", value: cf.maxRating.toLocaleString() },
-          { label: "Rank", value: cf.rank.charAt(0).toUpperCase() + cf.rank.slice(1) },
-          { label: "Solved", value: cf.solved.toLocaleString() },
-        ]}
-      >
-        <RatingSparkline history={cf.history} platform="Codeforces" />
-      </StatCard>
-
-      <StatCard
-        title="CodeChef"
-        handle={cc.handle}
-        href={`https://www.codechef.com/users/${cc.handle}`}
-        stale={cc.stale}
-        metrics={[
-          { label: "Peak", value: cc.maxRating.toLocaleString() },
-          { label: "Stars", value: `${cc.stars}\u2605` },
-          { label: "Solved", value: cc.solved.toLocaleString() },
-        ]}
-      >
-        <RatingSparkline history={cc.history} platform="CodeChef" />
-      </StatCard>
     </div>
   );
 }

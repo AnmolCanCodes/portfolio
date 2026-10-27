@@ -15,12 +15,10 @@ export function RightNavbar() {
       ...(portfolio.sections.blog ? [{ name: "Blog", href: "#blogs" }] : []),
       { name: "Experience", href: "#experience" },
       { name: "Projects", href: "#projects" },
-      { name: "Hackathons", href: "#hackathons" },
       { name: "DSA / CP", href: "#dsa" },
       { name: "Skills", href: "#skills" },
       { name: "Education", href: "#education" },
       { name: "Anime & Music", href: "#anime" },
-      { name: "Highlights", href: "#highlights" },
       { name: "Guestbook", href: "#guestbook" },
     ],
     []
