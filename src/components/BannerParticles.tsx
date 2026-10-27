@@ -49,10 +49,11 @@ function createDefaultImage() {
   tCtx.quadraticCurveTo(5, 32, 32, 59);
   tCtx.quadraticCurveTo(59, 32, 32, 5);
 
-  tCtx.fillStyle = "#bfdbfe"; // subtle ice blue
+  // Cherry blossom pink colors
+  tCtx.fillStyle = "#FFB7C5"; // cherry blossom pink
   tCtx.fill();
 
-  tCtx.strokeStyle = "#60a5fa";
+  tCtx.strokeStyle = "#FF69B4"; // hot pink outline
   tCtx.lineWidth = 1;
   tCtx.stroke();
 

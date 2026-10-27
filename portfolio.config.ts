@@ -32,8 +32,8 @@ export const portfolio = {
     linkedin: "anmol-gupta-fr",
     x: "stateful_anmol",
     leetcode: "CodessWAnmol",
-    codeforces: "",
-    codechef: "",
+    // codeforces: "", // Not using codeforces yet - uncomment in future
+    // codechef: "", // Not using codechef yet - uncomment in future
   },
 
   /**

@@ -18,7 +18,7 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "github.com",
         port: "",
-        pathname: "/Paras-ydv.png",
+        pathname: "/AnmolCanCodes.png",
         search: "",
       },
       {
