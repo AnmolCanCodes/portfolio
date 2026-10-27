@@ -49,10 +49,11 @@ function createDefaultImage() {
   tCtx.quadraticCurveTo(5, 32, 32, 59);
   tCtx.quadraticCurveTo(59, 32, 32, 5);
 
-  tCtx.fillStyle = "#bfdbfe"; // subtle ice blue
+  // Updated to cherry blossom pink colors
+  tCtx.fillStyle = "#fbcfe8"; // soft cherry blossom pink
   tCtx.fill();
 
-  tCtx.strokeStyle = "#60a5fa";
+  tCtx.strokeStyle = "#f472b6"; // vibrant pink outline
   tCtx.lineWidth = 1;
   tCtx.stroke();
 
@@ -148,7 +149,6 @@ export function BannerParticles() {
         if (initOnScreen) {
           this.x = Math.random() * width;
         } else {
-          // Keep new leaves close to the edge so the stream never goes sparse.
           const entryDistance = Math.min(width * 0.12, 80);
           this.x = settings.direction === -1
             ? width + this.width + Math.random() * entryDistance
@@ -209,7 +209,6 @@ export function BannerParticles() {
         ctx.translate(this.x, this.y);
         ctx.transform(vecU.x, vecU.y, vecV.x, vecV.y, 0, 0);
         
-        // Add a slight opacity for visual blending
         ctx.globalAlpha = 0.6;
         ctx.drawImage(particleImage, -this.width / 2, -this.height / 2, this.width, this.height);
         ctx.restore();
@@ -235,7 +234,6 @@ export function BannerParticles() {
         Math.max(32, Math.round((width * height) / 2500)),
       );
 
-      // Seed the full banner immediately; replacements then flow in from the edge.
       for (let i = 0; i < count; i++) {
         particles.push(new Particle(true));
       }

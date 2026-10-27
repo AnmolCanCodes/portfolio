@@ -1,4 +1,4 @@
-import { education, certifications } from "@/data/educationData";
+import { education } from "@/data/educationData";
 
 const dashedX = {
   maskImage:
@@ -54,37 +54,18 @@ export function Education() {
             <h3 className="text-[14px] font-bold text-zinc-900 dark:text-zinc-100 tracking-tight">
               Certifications
             </h3>
+
+            <ul className="flex flex-col">
+              <li className="mt-2 text-[12px] text-zinc-500 dark:text-zinc-500">
+                <p >Soon to be updated</p>
+              </li>
+            </ul>
+
           </div>
 
           <div className="h-px bg-black/30 dark:bg-white/[0.15]" style={dashedX} />
 
-          <ul className="flex flex-col">
-            {certifications.map((c, i) => (
-              <li key={c.name}>
-                {i > 0 && <div className="h-px bg-black/30 dark:bg-white/[0.15]" style={dashedX} />}
-                <div className="px-4 py-3">
-                  <p className="text-[13px] font-medium text-zinc-900 dark:text-zinc-100">{c.name}</p>
-                  <p className="mt-0.5 text-[12px] text-zinc-500 dark:text-zinc-500">
-                    {c.date} · {c.issuer}
-                    {c.note ? ` · ${c.note}` : ""}
-                    {c.link && (
-                      <>
-                        {" · "}
-                        <a
-                          href={c.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="underline decoration-dotted underline-offset-2 transition-colors hover:text-zinc-900 dark:hover:text-zinc-200"
-                        >
-                          Verify
-                        </a>
-                      </>
-                    )}
-                  </p>
-                </div>
-              </li>
-            ))}
-          </ul>
+
         </div>
       </div>
     </div>
