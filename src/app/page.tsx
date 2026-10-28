@@ -146,9 +146,7 @@ export default async function Home() {
         Full-stack AI engineer building end-to-end software, with a focus on backend engineering, Generative AI, and agentic systems.",        </p>
 
         <ul className="text-[14px] sm:text-[15px] text-zinc-600 dark:text-zinc-300 leading-relaxed mt-4 pl-4">
-          <li className="flex gap-1.5"><span>•</span><span>Systems, open source, and applied AI/ML are what pull me in.</span></li>
-          <li className="flex gap-1.5"><span>•</span><span>Shipped thread-safe MQTT networking into an Android app with <span className="font-semibold text-zinc-900 dark:text-white">1M+ installs</span> at GSoC 2026, and ML-driven Wi-Fi RTT localization at Samsung that cut ranging error by <span className="font-semibold text-zinc-900 dark:text-white">31%</span>.</span></li>
-          <li className="flex gap-1.5"><span>•</span><span>Currently an <span className="font-semibold text-zinc-900 dark:text-white">SDE Intern at GoCredit AI</span>, and building <span className="font-semibold text-zinc-900 dark:text-white">VentureIQ</span>, <span className="font-semibold text-zinc-900 dark:text-white">CampusSync</span> and <span className="font-semibold text-zinc-900 dark:text-white">Unslop</span> on the side.</span></li>
+          <li className="flex gap-1.5"><span>•</span><span>Backend, Open-Source, and AgenticAI are what pull me in.</span></li>
         </ul>
 
         {/* Buttons */}

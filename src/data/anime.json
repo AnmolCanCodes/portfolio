@@ -3,30 +3,30 @@
     "title": "Attack on Titan",
     "section": "favorites",
     "status": "Completed",
-    "episodes": 87,
+    "episodes": 94,
     "year": 2020,
     "cover": "/anime-movies/attack-on-titan_converted.webp"
   },
   {
     "title": "Berserk",
-    "section": "favorites",
-    "status": "Completed",
+    "section": "recent",
+    "status": "On hold",
     "episodes": 25,
     "year": 1997,
     "cover": "/anime-movies/berserk_converted.webp"
   },
   {
     "title": "Bleach",
-    "section": "recent",
-    "status": "Completed",
-    "episodes": 366,
+    "section": "classics",
+    "status": "On hold",
+    "episodes": 416,
     "year": 2004,
     "cover": "/anime-movies/bleach_converted.webp"
   },
   {
     "title": "Chainsaw Man",
-    "section": "watching",
-    "status": "Watching",
+    "section": "recent",
+    "status": "On hold",
     "episodes": 12,
     "year": 2022,
     "cover": "/anime-movies/chainsaw-man_converted.webp"
@@ -43,23 +43,23 @@
     "title": "Demon Slayer",
     "section": "favorites",
     "status": "Completed",
-    "episodes": 44,
+    "episodes": 63,
     "year": 2020,
     "cover": "/anime-movies/demon-slayer_converted.webp"
   },
   {
     "title": "Jujutsu Kaisen",
-    "section": "recent",
+    "section": "favorites",
     "status": "Completed",
-    "episodes": 47,
+    "episodes": 59,
     "year": 2023,
     "cover": "/anime-movies/jujustu-kaisen.webp"
   },
   {
     "title": "Solo Leveling",
-    "section": "watching",
-    "status": "Watching",
-    "episodes": 12,
+    "section": "recent",
+    "status": "Completed",
+    "episodes": 25,
     "year": 2024,
     "cover": "/anime-movies/solo-leveling.webp"
   },
@@ -67,10 +67,20 @@
     "title": "Vinland Saga",
     "section": "favorites",
     "status": "Completed",
-    "episodes": 24,
+    "episodes": 48,
     "year": 2019,
     "cover": "/anime-movies/vinland-saga.webp"
   },
+
+  {
+    "title": "Tokyo Revengers",
+    "section": "recent",
+    "status": "Completed",
+    "episodes": 54,
+    "year": 2021,
+    "cover": "/anime-movies/tokyo-revenger.webp"
+  },
+
   {
     "title": "Interstellar",
     "section": "movies",
@@ -106,5 +116,24 @@
     "year": 2022,
     "note": "Movie",
     "cover": "/anime-movies/the-batman(2022).webp"
+  },
+  {
+    "title": "The Wolf of Wall Street",
+    "section": "movies",
+    "status": "Completed",
+    "episodes": null,
+    "year": 2013,
+    "note": "Movie",
+    "cover": "/anime-movies/the-wolf-of-wall-street.webp"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "section": "movies",
+    "status": "Completed",
+    "episodes": null,
+    "year": 1994,
+    "note": "Movie",
+    "cover": "/anime-movies/the-shaawshank-redemption.webp"
   }
+
 ]
