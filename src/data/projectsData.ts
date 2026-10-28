@@ -35,7 +35,7 @@ export type TechKey =
   | "node" | "tailwind" | "github" | "fastapi" | "redis" | "python"
   | "kotlin" | "android" | "compose" | "mqtt" | "supabase" | "databricks"
   | "postgres" | "docker" | "grafana" | "prometheus" | "sklearn" | "qdrant"
-  | "chrome" | "gradle" | "junit" | "playwright" | "websockets" | "llm";
+  | "chrome" | "gradle" | "junit" | "playwright" | "websockets" | "llm" | "selenium";
 
 export type TechItem = TechKey | { label: string; tooltip?: string; };
 
@@ -67,7 +67,7 @@ export const iconMap: Record<TechKey, TechIcon> = {
   postgres: SiPostgresql, docker: SiDocker, grafana: SiGrafana, prometheus: SiPrometheus,
   sklearn: SiScikitlearn, qdrant: SiQdrant, chrome: SiGooglechrome, gradle: SiGradle,
   junit: SiJunit5, playwright: MousePointerClick, websockets: Radio, llm: Sparkles,
-  selenium: MousePointerClick, langchainhub: SiLangchain, langchainhubagent: SiLangchain,
+  
 };
 
 export const techNames: Record<TechKey, string> = {
@@ -78,7 +78,7 @@ export const techNames: Record<TechKey, string> = {
   mqtt: "MQTT", supabase: "Supabase", databricks: "Databricks", postgres: "PostgreSQL",
   docker: "Docker", grafana: "Grafana", prometheus: "Prometheus", sklearn: "scikit-learn",
   qdrant: "Qdrant", chrome: "Chrome Extension", gradle: "Gradle", junit: "JUnit",
-  playwright: "Playwright", websockets: "WebSockets", llm: "LLM", selenium: "Selenium", langchainhub: "LangChain Hub", langchainhubagent: "LangChain Hub Agent",
+  playwright: "Playwright", websockets: "WebSockets", llm: "LLM",
 };
 
 export const projectsData: Project[] = [
