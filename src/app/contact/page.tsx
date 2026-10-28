@@ -276,7 +276,7 @@ export default function ContactPage() {
 
           <div className="flex-grow h-[160px] relative flex items-center justify-end -mr-56 mt-2">
             <DisplacementText
-              text="PARAS"
+              text="Anmol"
               fontSize={300}
               className="h-full w-full"
               lightColor="#171717"

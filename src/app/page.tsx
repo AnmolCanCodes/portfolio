@@ -526,12 +526,12 @@ export default async function Home() {
         <div className="mt-2 flex flex-col items-center justify-center relative py-6">
           <div className="max-w-[480px] w-full flex flex-col items-center">
             <h3 className="text-[16px] font-medium text-center leading-relaxed text-zinc-500 dark:text-zinc-400 mb-6 italic">
-              &quot;A ship in harbor is safe,<br className="hidden md:block" /> but that is not what ships are built for.&quot;
+              &quot;Accept what you can't change,<br className="hidden md:block" /> change what you can't accept.&quot;
             </h3>
 
             <div className="flex items-center gap-3 text-[10px] font-medium tracking-[0.2em] text-zinc-400 dark:text-zinc-600 uppercase">
               <div className="w-4 h-[1px] bg-zinc-200 dark:bg-zinc-800" />
-              JOHN A. SHEDD
+              Unknown(Me!)
               <div className="w-4 h-[1px] bg-zinc-200 dark:bg-zinc-800" />
             </div>
           </div>
