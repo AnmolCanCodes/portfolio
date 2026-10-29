@@ -39,8 +39,7 @@ yarn-error.log*
 next-env.d.ts
 
 # Large images and media files (prevent large file pushes)
-public/Experienc-image/
-public/project-image/
+
 *.psd
 *.ai
 *.sketch
