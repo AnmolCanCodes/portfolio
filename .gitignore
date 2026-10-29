@@ -48,3 +48,7 @@ next-env.d.ts
 .cache/
 .temp/
 *.tmp
+
+
+SETUP_ENV.md
+GISCUS_ANILIST_FIX.md

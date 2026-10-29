@@ -173,7 +173,7 @@ export function AnimeGrid() {
                       rel="noopener noreferrer"
                       className="ml-auto inline-flex items-center gap-1 font-mono text-[11px] text-zinc-500 transition-colors hover:text-zinc-900 dark:text-zinc-500 dark:hover:text-zinc-200"
                     >
-                      <a href="https://anilist.co/api/v2/oauth/authorize?client_id={client_id}&redirect_uri={redirect_uri}&response_type=code">Login with AniList</a>
+                      View on AniList
                       <ArrowUpRight className="h-3 w-3" />
                     </a>
                   ) : null}

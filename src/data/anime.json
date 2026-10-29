@@ -5,7 +5,18 @@
     "status": "Completed",
     "episodes": 94,
     "year": 2020,
-    "cover": "/anime-movies/attack-on-titan_converted.webp"
+    "cover": "/anime-movies/attack-on-titan_converted.webp",
+    "synopsis": "Several hundred years ago, humans were nearly exterminated by titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest of titans.\r\nFlash forward to the present and the city has not seen a titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a colossal titan that appears out of thin air. As the smaller titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single titan and take revenge for all of mankind.\r\n(Source: MangaHelpers)",
+    "genres": [
+      "Action",
+      "Drama",
+      "Fantasy",
+      "Mystery"
+    ],
+    "score": 85,
+    "studio": "WIT STUDIO",
+    "runtime": 24,
+    "url": "https://anilist.co/anime/16498"
   },
   {
     "title": "Berserk",
@@ -13,7 +24,20 @@
     "status": "On hold",
     "episodes": 25,
     "year": 1997,
-    "cover": "/anime-movies/berserk_converted.webp"
+    "cover": "/anime-movies/berserk_converted.webp",
+    "synopsis": "Set during a time that very much resembles Europe during the Middle Ages, Berserk is a story of revenge set in the castle town of Midland. Recently, the town has seen the rise of a wicked king, who uses demonic minions to control and victimise his subjects.\n\nHowever, when a lone soldier enters the town calling himself the Black Swordsman and armed to the teeth, many sense that the king's days of unchecked oppression are over. Soon, the Black Swordsman is plying his trade by hunting down the king's evil servants, giving no quarter, and preparing to exact his vengeance on the king.\n\n(Source: MVM Entertainment)",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Horror",
+      "Supernatural"
+    ],
+    "score": 84,
+    "studio": "OLM",
+    "runtime": 25,
+    "url": "https://anilist.co/anime/33"
   },
   {
     "title": "Bleach",
@@ -21,7 +45,17 @@
     "status": "On hold",
     "episodes": 416,
     "year": 2004,
-    "cover": "/anime-movies/bleach_converted.webp"
+    "cover": "/anime-movies/bleach_converted.webp",
+    "synopsis": "Ichigo Kurosaki is a rather normal high school student apart from the fact he has the ability to see ghosts. This ability never impacted his life in a major way until the day he encounters the Shinigami Kuchiki Rukia, who saves him and his family's lives from a Hollow, a corrupt spirit that devours human souls. \n\nWounded during the fight against the Hollow, Rukia chooses the only option available to defeat the monster and passes her Shinigami powers to Ichigo. Now forced to act as a substitute until Rukia recovers, Ichigo hunts down the Hollows that plague his town. \n\n\n",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Supernatural"
+    ],
+    "score": 79,
+    "studio": "Studio Pierrot",
+    "runtime": 24,
+    "url": "https://anilist.co/anime/269"
   },
   {
     "title": "Chainsaw Man",
@@ -29,7 +63,18 @@
     "status": "On hold",
     "episodes": 12,
     "year": 2022,
-    "cover": "/anime-movies/chainsaw-man_converted.webp"
+    "cover": "/anime-movies/chainsaw-man_converted.webp",
+    "synopsis": "Denji is a teenage boy living with a Chainsaw Devil named Pochita. Due to the debt his father left behind, he has been living a rock-bottom life while repaying his debt by harvesting devil corpses with Pochita.\nOne day, Denji is betrayed and killed. As his consciousness fades, he makes a contract with Pochita and gets revived as \"Chainsaw Man\" — a man with a devil's heart.\n\n(Source: Crunchyroll)",
+    "genres": [
+      "Action",
+      "Drama",
+      "Horror",
+      "Supernatural"
+    ],
+    "score": 83,
+    "studio": "MAPPA",
+    "runtime": 25,
+    "url": "https://anilist.co/anime/127230"
   },
   {
     "title": "Death Note",
@@ -37,7 +82,18 @@
     "status": "Completed",
     "episodes": 37,
     "year": 2006,
-    "cover": "/anime-movies/deathnote_converted.webp"
+    "cover": "/anime-movies/deathnote_converted.webp",
+    "synopsis": "Light Yagami is a genius high school student who is about to learn about life through a book of death. When a bored shinigami, a God of Death, named Ryuk drops a black notepad called a Death Note, Light receives power over life and death with the stroke of a pen. Determined to use this dark gift for the best, Light sets out to rid the world of evil… namely, the people he believes to be evil. Should anyone hold such power?\n\nThe consequences of Light’s actions will set the world ablaze.\n\n(Source: VIZ Media)",
+    "genres": [
+      "Mystery",
+      "Psychological",
+      "Supernatural",
+      "Thriller"
+    ],
+    "score": 84,
+    "studio": "MADHOUSE",
+    "runtime": 23,
+    "url": "https://anilist.co/anime/1535"
   },
   {
     "title": "Demon Slayer",
@@ -45,7 +101,17 @@
     "status": "Completed",
     "episodes": 63,
     "year": 2020,
-    "cover": "/anime-movies/demon-slayer_converted.webp"
+    "cover": "/anime-movies/demon-slayer_converted.webp",
+    "synopsis": "The MMORPG Onigiri thrusts its players into mystical Japan, a land filled with mythical creatures of Japanese legend. Starting as a lone Oni, players fight against the malevolent influence of the Kamikui as their miasma spreads over the land. 8 NPCS, each with their own distinct personality and skills, ally themselves with the player to help build a legend, and quell the evil that has arisen. As you grow stronger together, so do the bonds binding you to each other.\n\n(Source: Anime News Network)",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "score": 48,
+    "studio": "Studio Signpost",
+    "runtime": 4,
+    "url": "https://anilist.co/anime/21612"
   },
   {
     "title": "Jujutsu Kaisen",
@@ -53,7 +119,17 @@
     "status": "Completed",
     "episodes": 59,
     "year": 2023,
-    "cover": "/anime-movies/jujustu-kaisen.webp"
+    "cover": "/anime-movies/jujustu-kaisen.webp",
+    "synopsis": "A boy fights... for \"the right death.\"\n\nHardship, regret, shame: the negative feelings that humans feel become Curses that lurk in our everyday lives. The Curses run rampant throughout the world, capable of leading people to terrible misfortune and even death. What's more, the Curses can only be exorcised by another Curse.\n\nItadori Yuji is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a friend who has been attacked by Curses, he eats the finger of the Double-Faced Specter, taking the Curse into his own soul. From then on, he shares one body with the Double-Faced Specter. Guided by the most powerful of sorcerers, Gojou Satoru, Itadori is admitted to the Tokyo Metropolitan Technical High School of Sorcery, an organization that fights the Curses... and thus begins the heroic tale of a boy who became a Curse to exorcise a Curse, a life from which he could never turn back.\n\n(Source: Crunchyroll)\n\nNote: The first episode received an early web premiere on September 19th, 2020. The regular TV broadcast started on October 3rd, 2020.",
+    "genres": [
+      "Action",
+      "Drama",
+      "Supernatural"
+    ],
+    "score": 84,
+    "studio": "Toho",
+    "runtime": 24,
+    "url": "https://anilist.co/anime/113415"
   },
   {
     "title": "Solo Leveling",
@@ -61,7 +137,17 @@
     "status": "Completed",
     "episodes": 25,
     "year": 2024,
-    "cover": "/anime-movies/solo-leveling.webp"
+    "cover": "/anime-movies/solo-leveling.webp",
+    "synopsis": "They say whatever doesn’t kill you makes you stronger, but that’s not the case for the world’s weakest hunter Seong Jin-U. After being brutally slaughtered by monsters in a high-ranking dungeon, Jin-U came back with the System, a program only he could see, that’s leveling him up in every way. Now, he’s inspired to discover the secrets behind his powers and the dungeon that spawned them.\n\n(Source: Crunchyroll) ",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "score": 80,
+    "studio": "A-1 Pictures",
+    "runtime": 24,
+    "url": "https://anilist.co/anime/151807"
   },
   {
     "title": "Vinland Saga",
@@ -69,18 +155,37 @@
     "status": "Completed",
     "episodes": 48,
     "year": 2019,
-    "cover": "/anime-movies/vinland-saga.webp"
+    "cover": "/anime-movies/vinland-saga.webp",
+    "synopsis": "Thorfinn is son to one of the Vikings' greatest warriors, but when his father is killed in battle by the mercenary leader Askeladd, he swears to have his revenge. Thorfinn joins Askeladd's band in order to challenge him to a duel, and ends up caught in the middle of a war for the crown of England.\n\n(Source: Kodansha USA)",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "score": 87,
+    "studio": "WIT STUDIO",
+    "runtime": 24,
+    "url": "https://anilist.co/anime/101348"
   },
-
   {
     "title": "Tokyo Revengers",
     "section": "recent",
     "status": "Completed",
     "episodes": 54,
     "year": 2021,
-    "cover": "/anime-movies/tokyo-revenger.webp"
+    "cover": "/anime-movies/tokyo-revenger.webp",
+    "synopsis": "Takemichi Hanagaki is a freelancer that's reached the absolute pits of despair in his life. He finds out that the only girlfriend he ever had in his life that he dated in middle school, Hinata Tachibana, had been killed by the ruthless Tokyo Manji Gang.\n\nThe day after hearing about her death, he's standing on the station platform and ends up being pushed over onto the tracks by a herd of people. He closes his eyes thinking he's about to die, but when he opens his eyes back up, he somehow had gone back in time 12 years.\n\nNow that he's back living the best days of his life, Takemichi decides to get revenge on his life by saving his girlfriend and changing himself that he'd been running away from.\n\n(Source: Crunchyroll)",
+    "genres": [
+      "Action",
+      "Drama",
+      "Romance",
+      "Supernatural"
+    ],
+    "score": 77,
+    "studio": "LIDENFILMS",
+    "runtime": 24,
+    "url": "https://anilist.co/anime/120120"
   },
-
   {
     "title": "Interstellar",
     "section": "movies",
@@ -88,7 +193,17 @@
     "episodes": null,
     "year": 2014,
     "note": "Movie",
-    "cover": "/anime-movies/interstellar.webp"
+    "cover": "/anime-movies/interstellar.webp",
+    "synopsis": "Many years ago, the Earth was no longer inhabitable. Humans migrated from the Earth to other planets. But that was actually a scheme. Thus, Tang Yueliang, as the heiress of Demon Vanquishers, with her companions head west to the Earth to find the artifact, Mythic Crystal, to save the universe and fight to go back to Earth!\n\n(source: BilbiliTV)",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "score": null,
+    "studio": "Unimedia",
+    "runtime": 8,
+    "url": "https://anilist.co/anime/146512"
   },
   {
     "title": "Inception",
@@ -115,7 +230,16 @@
     "episodes": null,
     "year": 2022,
     "note": "Movie",
-    "cover": "/anime-movies/the-batman(2022).webp"
+    "cover": "/anime-movies/the-batman(2022).webp",
+    "synopsis": "Batman animated anthology based on the DC Comics superhero of the same name. \n\nEpisodes\n1) Have I Got a Story for You (俺たちのスゴい話) - Shoujirou Nishimi (STUDIO 4℃)\n2) Crossfire (クロスファイア) - Futoshi Higashide (Production I.G.)\n3) Field Test (フィールドテスト) - Hiroshi Morioka (Bee Train)\n4) In Darkness Dwells (闇の中で) - Yasuhiro Aoki (Madhouse)\n5) Working Through Pain (克服できない痛み) - Toshiyuki Kubooka (STUDIO 4℃)\n6) Deadshot (デッドショット) - Jong-Sik Nam (Madhouse)\n",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "score": 65,
+    "studio": "Bee Train",
+    "runtime": 12,
+    "url": "https://anilist.co/anime/4094"
   },
   {
     "title": "The Wolf of Wall Street",
@@ -135,5 +259,4 @@
     "note": "Movie",
     "cover": "/anime-movies/the-shaawshank-redemption.webp"
   }
-
 ]
