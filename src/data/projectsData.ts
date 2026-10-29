@@ -67,7 +67,6 @@ export const iconMap: Record<TechKey, TechIcon> = {
   postgres: SiPostgresql, docker: SiDocker, grafana: SiGrafana, prometheus: SiPrometheus,
   sklearn: SiScikitlearn, qdrant: SiQdrant, chrome: SiGooglechrome, gradle: SiGradle,
   junit: SiJunit5, playwright: MousePointerClick, websockets: Radio, llm: Sparkles,
-  selenium: MousePointerClick, langchainhub: SiLangchain, langchainhubagent: SiLangchain,
 };
 
 export const techNames: Record<TechKey, string> = {
@@ -78,7 +77,7 @@ export const techNames: Record<TechKey, string> = {
   mqtt: "MQTT", supabase: "Supabase", databricks: "Databricks", postgres: "PostgreSQL",
   docker: "Docker", grafana: "Grafana", prometheus: "Prometheus", sklearn: "scikit-learn",
   qdrant: "Qdrant", chrome: "Chrome Extension", gradle: "Gradle", junit: "JUnit",
-  playwright: "Playwright", websockets: "WebSockets", llm: "LLM", selenium: "Selenium", langchainhub: "LangChain Hub", langchainhubagent: "LangChain Hub Agent",
+  playwright: "Playwright", websockets: "WebSockets", llm: "LLM"
 };
 
 export const projectsData: Project[] = [
@@ -86,9 +85,9 @@ export const projectsData: Project[] = [
     slug: "pricezen",
     title: "PriceZen",
     imageTitle: "Price Intelligence",
-    src: "/pricezen.png",
+    src: "/project-image/pricezen.png",
     description: "PriceZen is a competitor price intelligence platform for e-commerce brands. It helps businesses track market pricing, identify revenue risks, and act on clear recommendations before customers switch to a cheaper alternative.",
-    tech: ["next", "ts", "python", "fastapi", "postgres"],
+    tech: ["next", "ts", "python", "fastapi", "postgres", "playwright"],
     github: "https://github.com/AnmolCanCodes/pricezen-frontend",
     live: "https://pricezen.in",
     status: "live",
@@ -99,7 +98,7 @@ export const projectsData: Project[] = [
     slug: "ai-support-copilot",
     title: "AI Support Copilot",
     imageTitle: "RAG Assistant",
-    src: "/ai-support-copilot.png",
+    src: "/project-image/ai-support-copilot.png",
     description: "A professional RAG-based customer support assistant that enables users to upload their own PDF/TXT documents and ask questions based exclusively on those uploaded files.",
     tech: ["next", "ts", "python", "langchain", "rag", "llm", "fastapi"],
     github: "https://github.com/AnmolCanCodes/AI-Customer-Support-Copilot",
@@ -112,7 +111,7 @@ export const projectsData: Project[] = [
     slug: "ai-repo-intelligence",
     title: "AI Repo Intelligence",
     imageTitle: "Codebase Assistant",
-    src: "/ai-repo-intelligence.png",
+    src: "/project-image/ai-repo-intelligence.png",
     description: "An AI-powered codebase assistant that enables developers to connect a GitHub repository and ask questions about the codebase using natural language. Instead of manually searching through files, developers can ask questions like 'Where is authentication implemented?' or 'How does the login flow work?' and receive intelligent answers grounded in the actual code.",
     tech: ["next", "ts", "python", "langchain", "rag", "llm", "github", "fastapi"],
     github: "https://github.com/AnmolCanCodes/AI-Repo-Intelligence-Agent",

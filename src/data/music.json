@@ -1,85 +1,93 @@
 {
   "scenes": [
     {
-      "scene": "Indie / Mood",
+      "scene": "DHH",
       "artists": [
         "Seedhe Maut",
         "Talha Anjum",
-        "Karan Aujla"
+        "Aleemrk",
+        "Kr$na",
+        "Umair",
+        "Nanku"
       ]
     },
     {
-      "scene": "Hip-hop / Rap",
+      "scene": "Western hip hop / Rapper",
       "artists": [
         "Kanye West",
         "Kendrick Lamar",
-        "TV Girl"
+        "Eminem",
+        "drake",
+        "Weekend"
       ]
     },
     {
       "scene": "Chill / Alternative",
       "artists": [
         "Buck Owens",
-        "Arpit Bala"
+        "Arpit Bala",
+        "Artic Monkeys",
+        "Karan aujlia",
+        "TV girl"
       ]
     }
   ],
   "nowPlaying": {
-    "trackId": "4cOdK2wGLETKBW3PvgPWqT",
-    "title": "Not Like Us",
-    "artist": "Kendrick Lamar"
+    "trackId": "18E1LAdiOj79wZqSOYMHE7",
+    "title": "Untill i found you",
+    "artist": "Stephen Sanchez"
   },
   "albums": [
     {
-      "id": "seedhe-maut-lunch-break",
+      "id": "6pfy67TobYnXA5vrNa2aCB",
       "artist": "Seedhe Maut",
       "year": 2024,
-      "scene": "Indie / Mood",
+      "scene": "DHH",
       "title": "Lunch Break",
       "cover": "/music/seedhe-maut-lunch-break.webp"
     },
     {
-      "id": "talha-anjum-open-letter",
+      "id": "2OPwhppFED4iY5WUntvUIA",
       "artist": "Talha Anjum",
       "year": 2024,
-      "scene": "Indie / Mood",
+      "scene": "DHH",
       "title": "Open Letter",
       "cover": "/music/talha-anjum-open-letter.webp"
     },
     {
-      "id": "karan-aujla-making-memories",
+      "id": "3BGU0BqGwBkYDHpfCWFm7I",
       "artist": "Karan Aujla",
       "year": 2024,
-      "scene": "Indie / Mood",
+      "scene": "Chill / Alternative",
       "title": "Making Memories",
       "cover": "/music/karan-aujla-making-memories.webp"
     },
     {
-      "id": "kendrick-lamar-not-likeus",
+      "id": "k5JjnoGJyOxfSZUZtk2rRwZ",
       "artist": "Kendrick Lamar",
       "year": 2024,
-      "scene": "Hip-hop / Rap",
+      "scene": "Western hip hop / Rapper",
       "title": "Not Like Us",
       "cover": "/music/kendrick-lamar-not-likeus.webp"
     },
     {
-      "id": "kanye-west-graduation",
+      "id": "4SZko61aMnmgvNhfhgTuD3",
       "artist": "Kanye West",
       "year": 2007,
-      "scene": "Hip-hop / Rap",
+      "scene": "Western hip hop / Rapper",
       "title": "Graduation",
       "cover": "/music/kanye-west-graduation.webp"
     },
     {
-      "id": "tvgirl-who-really-cares",
+      "id": "4oL7pMxnb04uuRI7ReXmuh",
       "artist": "TV Girl",
       "year": 2023,
-      "scene": "Hip-hop / Rap",
+      "scene": "Chill / Alternative",
       "title": "Who Really Cares",
       "cover": "/music/tvgirl-who-really-cares.webp"
     },
     {
-      "id": "buck-owens-in-the-palm-of-your-hands",
+      "id": "7pfb8J6I3C3jfJvagjLaYk",
       "artist": "Buck Owens",
       "year": 1963,
       "scene": "Chill / Alternative",
@@ -87,7 +95,7 @@
       "cover": "/music/buck-owens-in-the-palm-of-your-hands.webp"
     },
     {
-      "id": "arpit-bala-keychain-laalu",
+      "id": "5jM78a6vX4iA10kgwzwjj9",
       "artist": "Arpit Bala",
       "year": 2024,
       "scene": "Chill / Alternative",

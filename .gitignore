@@ -39,8 +39,7 @@ yarn-error.log*
 next-env.d.ts
 
 # Large images and media files (prevent large file pushes)
-public/Experienc-image/
-public/project-image/
+
 *.psd
 *.ai
 *.sketch
@@ -49,3 +48,7 @@ public/project-image/
 .cache/
 .temp/
 *.tmp
+
+
+SETUP_ENV.md
+GISCUS_ANILIST_FIX.md
