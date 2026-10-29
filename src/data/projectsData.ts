@@ -35,7 +35,7 @@ export type TechKey =
   | "node" | "tailwind" | "github" | "fastapi" | "redis" | "python"
   | "kotlin" | "android" | "compose" | "mqtt" | "supabase" | "databricks"
   | "postgres" | "docker" | "grafana" | "prometheus" | "sklearn" | "qdrant"
-  | "chrome" | "gradle" | "junit" | "playwright" | "websockets" | "llm" | "selenium";
+  | "chrome" | "gradle" | "junit" | "playwright" | "websockets" | "llm";
 
 export type TechItem = TechKey | { label: string; tooltip?: string; };
 
@@ -67,7 +67,6 @@ export const iconMap: Record<TechKey, TechIcon> = {
   postgres: SiPostgresql, docker: SiDocker, grafana: SiGrafana, prometheus: SiPrometheus,
   sklearn: SiScikitlearn, qdrant: SiQdrant, chrome: SiGooglechrome, gradle: SiGradle,
   junit: SiJunit5, playwright: MousePointerClick, websockets: Radio, llm: Sparkles,
-  
 };
 
 export const techNames: Record<TechKey, string> = {
@@ -78,7 +77,7 @@ export const techNames: Record<TechKey, string> = {
   mqtt: "MQTT", supabase: "Supabase", databricks: "Databricks", postgres: "PostgreSQL",
   docker: "Docker", grafana: "Grafana", prometheus: "Prometheus", sklearn: "scikit-learn",
   qdrant: "Qdrant", chrome: "Chrome Extension", gradle: "Gradle", junit: "JUnit",
-  playwright: "Playwright", websockets: "WebSockets", llm: "LLM",
+  playwright: "Playwright", websockets: "WebSockets", llm: "LLM"
 };
 
 export const projectsData: Project[] = [
@@ -88,7 +87,7 @@ export const projectsData: Project[] = [
     imageTitle: "Price Intelligence",
     src: "/pricezen.png",
     description: "PriceZen is a competitor price intelligence platform for e-commerce brands. It helps businesses track market pricing, identify revenue risks, and act on clear recommendations before customers switch to a cheaper alternative.",
-    tech: ["next", "ts", "python", "fastapi", "postgres"],
+    tech: ["next", "ts", "python", "fastapi", "postgres", "playwright"],
     github: "https://github.com/AnmolCanCodes/pricezen-frontend",
     live: "https://pricezen.in",
     status: "live",
