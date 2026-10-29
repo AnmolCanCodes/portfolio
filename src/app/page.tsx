@@ -143,7 +143,7 @@ export default async function Home() {
       {/* Flowing Content Section */}
       <div className="ml-0 mr-0 md:ml-[30%] md:mr-[30%] pt-[calc(22vh+112px)] pb-0 px-4 flex flex-col z-10 relative min-h-screen">
         <p className="text-[14px] sm:text-[15px] text-zinc-600 dark:text-zinc-300 leading-relaxed mt-4">
-        Full-stack AI engineer building end-to-end software, with a focus on backend engineering, Generative AI, and agentic systems.",        </p>
+        Full-stack AI engineer building end-to-end software, with a focus on backend engineering, Generative AI, and agentic systems. </p>
 
         <ul className="text-[14px] sm:text-[15px] text-zinc-600 dark:text-zinc-300 leading-relaxed mt-4 pl-4">
           <li className="flex gap-1.5"><span>•</span><span>Backend, Open-Source, and AgenticAI are what pull me in.</span></li>
