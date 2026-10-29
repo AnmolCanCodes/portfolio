@@ -4,9 +4,9 @@ import { CurrentTime } from "@/components/CurrentTime";
 import { ProjectsGrid } from "@/components/ProjectsGrid";
 import { ExperienceList } from "@/components/ExperienceList";
 import { BlogList } from "@/components/BlogList";
-import { Highlights } from "@/components/Highlights";
+// import { Highlights } from "@/components/Highlights";
 import { AnimeMusic } from "@/components/AnimeMusic";
-import { Hackathons } from "@/components/Hackathons";
+// import { Hackathons } from "@/components/Hackathons";
 import { DsaStats } from "@/components/DsaStats";
 import { Education } from "@/components/Education";
 import { FooterBackground } from "@/components/FooterBackground";
@@ -27,6 +27,7 @@ import { BannerParticles } from "@/components/BannerParticles";
 import Image from "next/image";
 import { SiGithub, SiLeetcode } from "react-icons/si";
 import { MessageSquare } from "lucide-react";
+
 
 
 const lightBannerPlaceholder =
