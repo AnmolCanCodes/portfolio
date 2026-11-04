@@ -1,8 +1,5 @@
 @import "tailwindcss";
-/* Direct path: the package only declares a "style" export condition, which
-   Turbopack does not apply in dev, so the bare specifier fails to resolve. */
 @import "../../node_modules/tw-animate-css/dist/tw-animate.css";
-@import "shadcn/tailwind.css";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
