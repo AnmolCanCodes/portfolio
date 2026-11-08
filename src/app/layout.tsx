@@ -25,6 +25,10 @@ const doto = Doto({
   display: "swap",
 });
 
+const profileImage = portfolio.handles.github
+  ? `https://github.com/${portfolio.handles.github}.png`
+  : new URL("/opengraph-image", SITE_URL).toString();
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: portfolio.name,
@@ -35,6 +39,14 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: portfolio.name,
     type: "website",
+    images: [
+      {
+        url: profileImage,
+        width: 1200,
+        height: 630,
+        alt: `${portfolio.name} portfolio preview`,
+      },
+    ],
   },
   ...(portfolio.googleSiteVerification
     ? { verification: { google: portfolio.googleSiteVerification } }
@@ -45,6 +57,7 @@ export const metadata: Metadata = {
     description: portfolio.tagline,
     site: `@${portfolio.handles.x}`,
     creator: `@${portfolio.handles.x}`,
+    images: [profileImage],
   },
 };
 
