@@ -56,7 +56,7 @@ export const portfolio = {
   /** Path under /public. Swap the file and this string together. */
   resume: "/anmol_resume.pdf",
   /** "Book an intro call" button. Set to "" to hide it. */
-  bookingLink: "",
+  bookingLink: "https://cal.com/anmolcancodes",
 
   /**
    * Search Console verification. Paste the `content` value from Google's
