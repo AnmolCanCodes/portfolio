@@ -10,8 +10,16 @@ import { ThemeToggle } from "@/components/theme-toggle";
 import { portfolio } from "~/portfolio.config";
 
 export const metadata: Metadata = {
-  title: `Guestbook | ${portfolio.name}`,
-  description: `Leave a note for ${portfolio.name}. Signed with GitHub, kept forever.`,
+  title: "Guestbook",
+  description: "Leave a note for Anmol Gupta. Signed with GitHub and kept forever.",
+  alternates: {
+    canonical: "/guestbook",
+  },
+  openGraph: {
+    title: "Guestbook | Anmol Gupta",
+    description: "Leave a note for Anmol Gupta. Signed with GitHub and kept forever.",
+    url: "/guestbook",
+  },
 };
 
 const horizontalDots = {
