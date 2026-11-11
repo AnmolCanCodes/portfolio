@@ -13,8 +13,16 @@ import { albums, musicScenes, nowPlaying } from "@/data/musicData";
 import { portfolio } from "~/portfolio.config";
 
 export const metadata: Metadata = {
-  title: `Anime & Music | ${portfolio.name}`,
-  description: `Everything ${portfolio.name} has watched, and what is on repeat while building.`,
+  title: "Anime & Music",
+  description: "A curated anime and music list from Anmol Gupta's personal library and listening queue.",
+  alternates: {
+    canonical: "/anime",
+  },
+  openGraph: {
+    title: "Anime & Music | Anmol Gupta",
+    description: "A curated anime and music list from Anmol Gupta's personal library and listening queue.",
+    url: "/anime",
+  },
 };
 
 const horizontalDots = {

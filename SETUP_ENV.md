@@ -186,11 +186,66 @@ This embeds a Spotify player showing that track.
 
 ---
 
+## AniList Integration
+
+The anime section can automatically fetch detailed information (synopsis, genres, score, studio) from AniList's GraphQL API.
+
+### Step 1: Add Anime to `src/data/anime.json`
+
+Your anime data lives in `src/data/anime.json`. Each entry should have:
+```json
+{
+  "title": "Attack on Titan",
+  "section": "favorites",
+  "status": "Completed",
+  "episodes": 94,
+  "year": 2020,
+  "cover": "/anime-movies/attack-on-titan_converted.webp"
+}
+```
+
+**Section options:** `watching`, `favorites`, `recent`, `classics`, `movies`, `more`
+**Status options:** `Watching`, `Completed`, `On hold`, `Dropped`
+
+### Step 2: Fetch AniList Data
+
+Run the refresh script to fetch additional details from AniList:
+```bash
+npm run refresh-anime
+```
+
+This script:
+- Searches AniList for each anime title in your `anime.json`
+- Fetches: synopsis, genres, score, studio, runtime, and AniList URL
+- Merges the data into your `anime.json` file
+- Rate limits requests to respect AniList's API limits (~90 req/min)
+
+### Step 3: Add Cover Images
+
+- Download anime/movie cover images
+- Save them to `/public/anime-movies/` folder
+- Convert to .webp format for better performance
+- Update the `cover` path in `anime.json`
+
+### Step 4: View Results
+
+- Visit `/anime` on your site
+- Click on any anime to see the detailed modal with AniList data
+- The modal shows: synopsis, genres, score, studio, episodes, runtime
+
+**Note:** AniList is optional. If you don't run the refresh script, the anime section still works with just the basic data (title, status, episodes, year, cover).
+
+---
+
 ## Summary Checklist
 
 - [ ] GitHub token added to `.env`
 - [ ] Giscus app installed on repository (for guestbook)
 - [ ] Giscus config updated in `portfolio.config.ts` (for guestbook)
+- [ ] Discussions enabled in repository settings (for guestbook)
 - [ ] Music data added to `src/data/music.json` (for Spotify)
 - [ ] Album covers downloaded to `/public/music/` (for Spotify)
 - [ ] Run `npm run refresh-music` if using Spotify API (for Spotify)
+- [ ] Anime data added to `src/data/anime.json` (for AniList)
+- [ ] Anime covers downloaded to `/public/anime-movies/` (for AniList)
+- [ ] Run `npm run refresh-anime` to fetch AniList details (for AniList)

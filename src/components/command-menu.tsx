@@ -28,7 +28,7 @@ import {
     Send,
     MessageSquare,
 } from "lucide-react"
-import { SiGithub, SiX, SiLeetcode, SiCodeforces, SiCodechef } from "react-icons/si"
+import { SiGithub, SiX, SiLeetcode } from "react-icons/si"
 import { FaLinkedin } from "react-icons/fa6"
 
 import {
@@ -60,7 +60,6 @@ const SECTIONS = [
     { id: "skills", label: "Skills", icon: BookOpen, key: "S" },
     { id: "education", label: "Education", icon: GraduationCap, key: "G" },
     { id: "anime", label: "Anime & Music", icon: Music, key: "A" },
-    { id: "highlights", label: "Highlights", icon: Sparkles, key: "L" },
     { id: "contact", label: "Socials", icon: Send, key: "O" },
     { id: "guestbook", label: "Guestbook", icon: MessageSquare, key: "N" },
 ] as const
@@ -70,8 +69,6 @@ const PROFILES = [
     { label: "LinkedIn", icon: FaLinkedin, href: `https://www.linkedin.com/in/${handles.linkedin}/`, handle: handles.linkedin },
     { label: "X", icon: SiX, href: `https://x.com/${handles.x}`, handle: `@${handles.x}` },
     { label: "LeetCode", icon: SiLeetcode, href: `https://leetcode.com/u/${handles.leetcode}`, handle: handles.leetcode },
-    { label: "Codeforces", icon: SiCodeforces, href: `https://codeforces.com/profile/${handles.codeforces}`, handle: handles.codeforces },
-    { label: "CodeChef", icon: SiCodechef, href: `https://www.codechef.com/users/${handles.codechef}`, handle: handles.codechef },
 ].filter((profile) => Boolean(profile.handle)) as Array<{ label: string; icon: typeof SiGithub; href: string; handle: string }>
 
 export function CommandMenu() {
