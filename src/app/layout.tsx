@@ -42,6 +42,17 @@ export const metadata: Metadata = {
   },
   description: DEFAULT_DESCRIPTION,
   applicationName: portfolio.name,
+  keywords: [
+    "Anmol Gupta",
+    "AI Backend Developer",
+    "RAG systems",
+    "Agent systems",
+    "FastAPI developer",
+    "AI engineer",
+    "portfolio",
+    "Anmol Gupta portfolio",
+    "Anmol AI backend",
+  ],
   alternates: {
     canonical: "/",
   },

@@ -21,7 +21,7 @@ export const portfolio = {
   utcOffset: "UTC +05:30",
 
   /** Canonical origin. NEXT_PUBLIC_SITE_URL overrides this at build time. */
-  url: "https://anmolgupta22-portfolio-vercel.app",
+  url: "https://anmol-gupta.is-a.dev",
 
   /**
    * Usernames only, never full URLs - the code builds the links and the stats
