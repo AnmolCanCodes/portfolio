@@ -3,8 +3,6 @@ import fs from "node:fs";
 import path from "node:path";
 import { ImageResponse } from "next/og";
 import { portfolio } from "~/portfolio.config";
-import { experiences } from "@/data/experienceData";
-import snapshot from "@/data/stats-snapshot.json";
 
 export const alt = `${portfolio.name} - ${portfolio.tagline}`;
 export const size = { width: 1200, height: 630 };
@@ -62,12 +60,7 @@ const ART = { w: 1887, h: 630, left: -546 };
 const n = (v: number) => v.toLocaleString("en-US");
 
 /** One restrained line of proof - the artwork does the attracting. */
-const PROOF = [
-  "GSoC '26",
-  `${experiences.length} roles`,
-  `${n(snapshot.leetcode.maxRating)} LeetCode`,
-  `${n(snapshot.codeforces.maxRating)} Codeforces`,
-].join("   ·   ");
+const PROOF = "AI backend engineer • RAG systems • agent workflows";
 
 export default function OpengraphImage() {
   return new ImageResponse(

@@ -4,9 +4,9 @@ import { CurrentTime } from "@/components/CurrentTime";
 import { ProjectsGrid } from "@/components/ProjectsGrid";
 import { ExperienceList } from "@/components/ExperienceList";
 import { BlogList } from "@/components/BlogList";
-import { Highlights } from "@/components/Highlights";
+// import { Highlights } from "@/components/Highlights";
 import { AnimeMusic } from "@/components/AnimeMusic";
-import { Hackathons } from "@/components/Hackathons";
+// import { Hackathons } from "@/components/Hackathons";
 import { DsaStats } from "@/components/DsaStats";
 import { Education } from "@/components/Education";
 import { FooterBackground } from "@/components/FooterBackground";
@@ -27,6 +27,7 @@ import { BannerParticles } from "@/components/BannerParticles";
 import Image from "next/image";
 import { SiGithub, SiLeetcode } from "react-icons/si";
 import { MessageSquare } from "lucide-react";
+
 
 
 const lightBannerPlaceholder =
@@ -143,12 +144,10 @@ export default async function Home() {
       {/* Flowing Content Section */}
       <div className="ml-0 mr-0 md:ml-[30%] md:mr-[30%] pt-[calc(22vh+112px)] pb-0 px-4 flex flex-col z-10 relative min-h-screen">
         <p className="text-[14px] sm:text-[15px] text-zinc-600 dark:text-zinc-300 leading-relaxed mt-4">
-        Full-stack AI engineer building end-to-end software, with a focus on backend engineering, Generative AI, and agentic systems.",        </p>
+        Full-stack AI engineer building end-to-end software, with a focus on backend engineering, Generative AI, and agentic systems. </p>
 
         <ul className="text-[14px] sm:text-[15px] text-zinc-600 dark:text-zinc-300 leading-relaxed mt-4 pl-4">
-          <li className="flex gap-1.5"><span>•</span><span>Systems, open source, and applied AI/ML are what pull me in.</span></li>
-          <li className="flex gap-1.5"><span>•</span><span>Shipped thread-safe MQTT networking into an Android app with <span className="font-semibold text-zinc-900 dark:text-white">1M+ installs</span> at GSoC 2026, and ML-driven Wi-Fi RTT localization at Samsung that cut ranging error by <span className="font-semibold text-zinc-900 dark:text-white">31%</span>.</span></li>
-          <li className="flex gap-1.5"><span>•</span><span>Currently an <span className="font-semibold text-zinc-900 dark:text-white">SDE Intern at GoCredit AI</span>, and building <span className="font-semibold text-zinc-900 dark:text-white">VentureIQ</span>, <span className="font-semibold text-zinc-900 dark:text-white">CampusSync</span> and <span className="font-semibold text-zinc-900 dark:text-white">Unslop</span> on the side.</span></li>
+          <li className="flex gap-1.5"><span>•</span><span>Backend, Open-Source, and AgenticAI are what pull me in.</span></li>
         </ul>
 
         {/* Buttons */}
@@ -528,12 +527,12 @@ export default async function Home() {
         <div className="mt-2 flex flex-col items-center justify-center relative py-6">
           <div className="max-w-[480px] w-full flex flex-col items-center">
             <h3 className="text-[16px] font-medium text-center leading-relaxed text-zinc-500 dark:text-zinc-400 mb-6 italic">
-              &quot;A ship in harbor is safe,<br className="hidden md:block" /> but that is not what ships are built for.&quot;
+              &quot;Accept what you can't change,<br className="hidden md:block" /> change what you can't accept.&quot;
             </h3>
 
             <div className="flex items-center gap-3 text-[10px] font-medium tracking-[0.2em] text-zinc-400 dark:text-zinc-600 uppercase">
               <div className="w-4 h-[1px] bg-zinc-200 dark:bg-zinc-800" />
-              JOHN A. SHEDD
+              Unknown(Me!)
               <div className="w-4 h-[1px] bg-zinc-200 dark:bg-zinc-800" />
             </div>
           </div>

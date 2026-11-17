@@ -8,10 +8,10 @@ export type Education = {
 };
 
 export const education: Education = {
-  school: "Mahatma Gandhi Kashi Vidyapith (MGKVP) – Jeevandeep Institute Campus",
+  school: "Mahatma Gandhi Kashi Vidyapith (MGKVP) – JMV Campus",
   degree: "Bachelor of Computer Applications (BCA)",
   cgpa: "8.45 / 10.0",
-  dates: "Aug 2024 - June  2026",
+  dates: "Aug 2024 - Present",
   location: "Uttar Pradesh, India",
   coursework: [
     "Mathematics & Business Integration",

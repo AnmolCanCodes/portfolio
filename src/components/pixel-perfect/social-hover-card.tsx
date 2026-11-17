@@ -70,7 +70,7 @@ interface SocialHoverCardProps {
   socialName: string;
   children: React.ReactNode;
   /** Live profile fetched on the server; falls back to the static entry below. */
-  profile?: SocialProfile;
+  profile?: SocialProfile | null;
 }
 
 export default function SocialHoverCard({ socialName, children, profile: live }: SocialHoverCardProps) {
