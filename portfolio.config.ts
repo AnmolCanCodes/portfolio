@@ -63,7 +63,7 @@ export const portfolio = {
    * "HTML tag" method here - just the token, not the whole <meta> tag. Left
    * empty, no verification tag is emitted.
    */
-  googleSiteVerification: "",
+  googleSiteVerification: "google610ac79319230bc1.html",
 
   /**
    * Toggle optional sections off without deleting their code. The components
